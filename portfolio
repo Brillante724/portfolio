@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Brillante Barthelle NGBINA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+      background: url(image/im2.jpg);
+      background-position: center;
+      background-size: cover;
+      
+    }
+    header {
+      background: #002244;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #005288;
+      padding: 1rem;
+      text-align: center;
+      
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      margin-top: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #005288;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #002244;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brillante Barthelle NGBINA</h1>
+    <p>Étudiante en Informatique - Réseaux & Développement Web</p>
+    <p>Dakar, Sénégal | +221 77 128 70 51 | barthellengbina@gmail.com</p>
+  </header>
+  <nav>
+    <a href="#about">Présentation</a>
+    <a href="#projects">Projets</a>
+    <a href="#skills">Compétences</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>Présentation</h2>
+    <p>Étudiante rigoureuse, passionnée par les réseaux, le développement web et la cybersécurité. Je suis actuellement en Licence Informatique à l'ISI Dakar et je cherche un stage pour approfondir mes compétences pratiques.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projets</h2>
+    <h3>Site de gestion académique en PHP</h3>
+    <ul>
+      <li>Interface d’administration dynamique</li>
+      <li>Authentification sécurisée (PDO + MySQL)</li>
+      <li>Déploiement sur serveur Linux</li>
+    </ul>
+    <h3>Chiffrement CBC</h3>
+    <ul>
+      <li>Simulation manuelle de cryptage/décryptage</li>
+      <li>Utilisation de permutations simples</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Compétences</h2>
+    <p><strong>Langages :</strong> PHP, HTML/CSS, JavaScript, Python, Java, Flutter</p>
+    <p><strong>Réseaux :</strong> IP, VLAN, DHCP, sécurité Wi-Fi</p>
+    <p><strong>OS :</strong> Ubuntu, Debian, Rocky, TrueNAS</p>
+    <p><strong>Outils :</strong> VirtualBox, Cisco Packet Tracer, SQL Plus, XAMPP, Git</p>
+    <p><strong>CMS :</strong> WordPress, WooCommerce</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : barthellengbina@gmail.com</p>
+    <p>Téléphone : +221 77 128 70 51</p>
+    <p>LinkedIn : <a href="https://www.linkedin.com/in/tonprofil" target="_blank">linkedin.com/in/tonprofil</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Brillante Barthelle NGBINA - Tous droits réservés
+  </footer>
+</body>
+</html>
